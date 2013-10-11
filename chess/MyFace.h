@@ -8,11 +8,11 @@ public:
 	int next;
 
 public:
-	MyFace(void){}
-	~MyFace(void){}
+	MyFace(void);
+	~MyFace(void);
 
 	int evaluate();
-	bool issame(MyFace& f)
+	bool issame(MyFace& f);
 };
 
 
